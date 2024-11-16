@@ -185,20 +185,19 @@ img{
     gap: 1.5rem;
 }
 .image-container{
-    height: 70vh;
-    width:  70rem;
-    background: linear-gradient(var(--secondary-pink),var(--secondary-grey));
-    border-radius: 50% 50% 0 0;
+    height: 75vh;
+    width:  50rem;
+    top: 1rem;
+    background: linear-gradient(var(--secondary-pink),transparent);
     position: relative;
     transform:  scaleX(1);
+    border-radius: 50% 50% 0 0;
 }
-.image-container img{
-    position:absolute;
+.image-container img {
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 40px;
-    height: 64vh;
-    width: 30vw;
 }
 
 
